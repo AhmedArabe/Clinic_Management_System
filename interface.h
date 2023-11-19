@@ -32,8 +32,6 @@ patient * head ;
 void admin_init (void);
 
 
-
-
 /****************************************************
 * Function name :   admin_void_add_patient_record.  *          
 * Purpose       :   Add A Patient Record.           *
@@ -43,8 +41,6 @@ void admin_init (void);
 * Return value  :  (void) No parameters.            *                  
 *****************************************************/
 void admin_void_add_patient_record (char name[] ,int age , char gender[] ,int id);
-
-
 
 
 /*******************************************************
@@ -59,8 +55,6 @@ void admin_void_add_patient_record (char name[] ,int age , char gender[] ,int id
 void admin_void_edit_patient_record (int id  ,char *name ,int age , char *gender);
 
 
-
-
 /**************************************************
 * Function name :   admin_int_reserve_slot.       *          
 * Purpose       :   reserve a slot for patient.   *
@@ -68,8 +62,6 @@ void admin_void_edit_patient_record (int id  ,char *name ,int age , char *gender
 * Return value  :  (void) No parameters.          *                  
 **************************************************/
 void  admin_int_reserve_slot (int id);
-
-
 
 
 /**************************************************
@@ -81,8 +73,6 @@ void  admin_int_reserve_slot (int id);
 void admin_void_cancel_reservation (int id);
 
 
-
-
 /**************************************************
 * Function name :   user_void_view_patient_record.*          
 * Purpose       :   show the patient record.      *
@@ -92,8 +82,6 @@ void admin_void_cancel_reservation (int id);
 void user_void_view_patient_record (int id);
 
 
-
-
 /**************************************************
 * Function name :    user_void_view_resrvation.   *          
 * Purpose       :    show today reservation.      *
@@ -101,8 +89,6 @@ void user_void_view_patient_record (int id);
 * Return value  :   (void) No parameters.         *                  
 **************************************************/
 void user_void_view_resrvation (void);
-
-
 
 
 /**************************************************
